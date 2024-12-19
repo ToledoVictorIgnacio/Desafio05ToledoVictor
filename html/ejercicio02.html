@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio05</title>
+</head>
+<body>
+  <h1>Ejercicio02</h1>  
+
+  Crear 2 variables con valores numéricos libres, y a partir de esas 2 variables, la consola debe mostrar lo siguiente:
+  
+  Gato #1: 🐈 🐾🐾🐾 
+  Gato #2: 🐈 🐾🐾🐾 
+  Gato #3: 🐈 🐾🐾🐾 
+  Gato #4: 🐈 🐾🐾🐾 
+  Gato #5: 🐈 🐾🐾🐾
+  
+  Si se utilizan otros valores, el resultado en la consola debe adaptarse.
+  
+  Gato #1: 🐈 🐾🐾🐾🐾🐾🐾🐾🐾
+  Gato #2: 🐈 🐾🐾🐾🐾🐾🐾🐾🐾
+
+  <script>
+    
+      var cantidadDeGatos = 10;
+      var cantidadDePasos = 4;
+      var Gato = "🐈";
+      var Pasos ="🐾";
+      var texto1 ="";
+      var texto2;
+
+      for (let i = 1; i <= cantidadDeGatos; i++) {
+        
+        gatos = "gato #"+ i +": "+ Gato;
+        pasos ="";
+        for (let u = 1; u <= cantidadDePasos; u++) {
+        
+            texto2 = texto2 + Pasos;
+        }
+
+        console.log(gatos + pasos);
+      
+      }
+
+  </script>
+
+
+
+</body>
+</html>
+

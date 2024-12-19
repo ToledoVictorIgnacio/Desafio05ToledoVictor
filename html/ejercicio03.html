@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio05</title>
+</head>
+<body>
+    <h1>Ejercicio03</h1>
+
+    Adaptar el ejercicio anterior para que se muestren 2 gatos alternadamente:
+   
+    <script>
+        var cantidadDeGatos = 10;
+        var cantidadDePasos = 4;
+        var Gato = "🐈";
+        var Pasos ="🐾";
+        var texto1 ="";
+        var texto2 ="";
+        var contador = 1;
+
+        for (let i = 1; i <= cantidadDeGatos; i++) {
+            texto1 = "gato #"+ i +": "+ Gato;  
+
+            if (i % 2 == 0 ) {
+                texto1 = texto1 + Gato;
+            }    
+            texto2 ="";
+            for (let u = 1; u <= cantidadDePasos; u++) {
+            
+                texto2 = texto2 + Pasos;
+            }
+        console.log(texto1 + texto2);   
+        }
+    </script>
+
+</body>
+</html>

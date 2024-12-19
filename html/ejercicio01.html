@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio05</title>
+</head>
+<body>
+    <h1>Ejercicio01</h1>
+    Crear una variables de numero libre (var cantidadDeGatos = 10)
+
+    <br>
+
+    var cantidadDeGatos = 10;
+    
+    Gato #1: 😺
+    Gato #2: 😸
+    Gato #3: 😹
+    Gato #4: 😺
+    Gato #5: 😸
+    Gato #6: 😹
+    Gato #7: 😺
+    Gato #8: 😸
+    Gato #9: 😹
+    Gato #10: 😺
+    
+   La consola mostrará una alternación de 3 gatos en un periodo de 10 
+  
+
+  <script>
+
+
+  const cantidadDeGatos = 10;
+  var Gato = "";
+  var contador = 1;
+
+    for (let i  = 1; i <= cantidadDeGatos; i++) { 
+
+        //Gato 1
+        if (contador == 1 ) {
+          Gato = "😺";
+        }
+        // Gato 2
+        else if (contador== 2) {
+          Gato = "😸";     
+        }
+        // Gato 3
+        else {Gato = "😹" 
+            contador=0;
+        }
+      contador++
+      console.log("gato #"+i+": "+ Gato )
+    }
+
+
+  </script>
+
+
+    
+</body>
+</html>
